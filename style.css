@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.you{
+    display: none;
+}
+input{
+    margin-top: 1.5cm;
+    height: 5vh;
+}
+.abcd{
+    width: 8%;
+    height: 5vh;
+    background-color: rgb(53, 1, 1);
+    color: white;
+    padding: 3px;
+}
+.dcba{
+    width: 8%;
+    height: 5vh;
+    padding: 3px;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgb(53, 1, 1);
+    height: 20px;
+    padding: 5px;
+    border-radius: 7px;
+}
+h1{
+    color: gray;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: cursive ;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.cards{
+   color: white;
+   width: 20%;
+   background-color: brown;
+   margin: 25px;
+   border: 3px solid  white;
+   display: inline-block;
+   font-size: 10px;
+   margin-left: 3.5cm;
+}
+.image img{
+width: 100%;
+}
+.title{ 
+text-align: center;
+}
+.card{
+    color: white;
+   width: 12%;
+   background-color: rgb(14, 35, 75);
+   margin: 25px;
+   border: 3px solid  white;
+   display: inline-block;
+}
+.image img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+button{
+    background-color: gold;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 15px
+}
+.slider{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slider 15s infinite;
+    height: 100vh;
+}
+@keyframes slider{
+    0%{background-image: url(17.jpg);}
+    25%{background-image: url(16.jpg);}
+    75%{background-image: url(22.jpg);}
+    100%{background-image: url(7.jpg);}
+}
+.hello{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 0.7cm;
+    padding: 0PX;
+}
+.hello p{
+    text-align: justify;
+    padding: 25px;
+}
+.hello img{
+    width: 700px;
+    border-radius: 5px;
+}
+.something {
+    width: 300px;
+    background-color: white;
+    margin-left: 26cm;
+    border-radius: 100%;
+    position: absolute;
+    height: 399px;
+    margin-top: 1cm;
+}
+.something1{
+    margin-top: 5cm;
+}
+.something2{
+    position: absolute;
+    border: 1px solid white;
+   margin-left: 19cm;
+   margin-top: 12cm;
+   color: white;
+}
+.why-us {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+.features {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-right: 0.7cm;
+}
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    margin-right: 1cm;
+}
+.feature img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.gallery img{
+    border-radius: 5%;
+}
+.gallery1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.gallery1 video{
+    border-radius: 5%;
+}
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    .form-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input, textarea {
+        width: 80%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    textarea {
+        height: 120px;
+    }
+    button {
+        width: 85%;
+        padding: 12px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #mytext2{
+        margin-left: 10cm;
+    }
+    #mytext3{
+        margin-left: 10cm;
+    }
+    .suhaib{
+        text-align: center;
+        margin-left: 6cm;
+    }
+    #mytext1{
+        margin-left: 14cm;
+    }
+    #mytext3{
+        margin-left: 14cm;
+    }
+    
+    @media (max-width:600px) {
+      body{
+        overflow: hidden;
+      }
+        a{ 
+        position: absolute;
+        top: 8%;
+        display: flex;
+        flex-direction: column;
+        
+        }
+        .slider{
+            margin-top: 10%;
+            width: 425px;
+            height: 425px;
+        }
+        h1{
+            color: black;
+            margin-right: 5cm;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #mytext1{
+            margin-left: 2cm;
+        }
+        #mytext3{
+            margin-left: 2cm;
+        }
+        #mytext2{
+            margin-left: 0cm;
+        }
+        .cards{
+            width: 18%;
+            display: inline-block;
+            margin: 20px;
+            gap: 0px;
+        }
+        h2{
+            font-size: 5px;
+        }
+        .card{
+            width: 80px;
+        }
+        button{
+            font
+        }
+    }
+    
